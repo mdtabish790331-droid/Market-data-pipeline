@@ -5,8 +5,8 @@ from datetime import datetime
 # ✅ FIX 1: Sahi database credentials
 conn = psycopg2.connect(
     dbname="market_data",
-    user="postgres",           # postgres user use karein
-    password="postgres",        # apna password daalein
+    user="postgres",       
+    password="postgres",        
     host="127.0.0.1",
     port="5432"
 )
