@@ -26,7 +26,7 @@ print("Connecting to database...")
 conn = psycopg2.connect(
     dbname="market_data",
     user="postgres",
-    password="postgres",  # ✅ APNA PASSWORD YAHAN DALO
+    password="postgres",  
     host="127.0.0.1"
 )
 cursor = conn.cursor()
