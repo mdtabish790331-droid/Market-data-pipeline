@@ -91,12 +91,6 @@ Hashing / Tokenization Logic
 
 File-based or in-memory registry storage
 
-📂 Project Structure (Example)
-├── ingest_pipeline.py
-├── resolve_pipeline.py
-├── registry.json
-├── obfuscated_data.json
-└── README.md
 ▶️ How to Run
 Step 1: Install Dependencies
 pip install yfinance
